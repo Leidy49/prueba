@@ -1,0 +1,217 @@
+body{
+    font-family:NexusSansWebPro;
+    src: url(https://id.elsevier.com/assets/fonts/nexussanswebpro/NexusSansWebPro.woff);
+    
+  
+}
+.background{
+    background-image: url(https://id.elsevier.com/assets/images/MDY/mendeley/page.jpg);
+    height:800px;
+    width: 100%;
+}
+.container1{
+    background-color: white;
+    font-size: 5px;
+    width: 100%;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    position:relative;
+   
+}
+.container1  img{
+  margin-left: 32px;
+  margin-top: 10px;
+  width: 210px;
+  height: 60px;
+}
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+
+  }
+  
+  
+  .div2 {
+    float: inline-start;
+    border-top: 2px solid red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    position: absolute;
+
+    
+  }
+  
+  .div3 {
+    float: inline-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: #DDDDDD;
+    z-index: 1;
+  }
+  .exit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 10px;
+    
+  }
+  
+
+  .img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .main h1{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+  .button1{
+    align-items: center;
+
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    
+ 
+  }
+  .button1:enabled{
+    background-color: rgb(13, 99, 184);
+    color: white;
+  }
+.button1:enabled:hover{
+  background-color: rgb(232, 130, 4);
+  color: white;
+}
+
+  .button2{
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    border: 2px solid blue;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .button2:hover{
+    border: 2px solid rgb(207, 91, 1);
+  }
+  
+
+  input[type="email"] {
+    align-items: center;
+
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    font-size: 20px;
+    width: 400px;
+    border: none;
+    height: 30px;
+    border-radius: 0;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  
+  input[type="email"]:focus {
+    outline: none;
+    border-bottom: 2px solid #252525;
+  }
+  
+  input[type="email"]::placeholder {
+    color: #0598e2;
+  }
+  
+  input[type="email"]:focus::placeholder {
+    color: #0598e2;
+    font-size: 12px;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  footer {
+    border-top: 2px solid rgb(233, 66, 0);
+    background-color: #eee;
+    padding-bottom: 60px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e15f01;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .img1{
+    float: left;
+  }
+  .imgl{
+   float: right;
+  
+  }
+  .img2{
+     float: right;
+  }
+  p{
+    color: #393939;
+    padding-left: 120px;
+  }
